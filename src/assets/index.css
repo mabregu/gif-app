@@ -25,3 +25,30 @@ input {
     font-size: 1rem;
     margin-bottom: 1rem;
 }
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.card-header h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+}

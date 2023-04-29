@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Gif from './Gif'
+import App from './components/App'
 import './assets/index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Gif />
+    <App />
   </React.StrictMode>,
 )
