@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import {useState} from 'react'
 import AddCategory from './AddCategory.jsx'
 import GifList from './GifList.jsx'
 
@@ -16,7 +16,6 @@ const Gif = () => {
             <ul>
                 {
                     categories.map((category, index) => (
-                        // <li key={index}>{category}</li>
                         <GifList key={index} category={category} />
                     ))
                 }
